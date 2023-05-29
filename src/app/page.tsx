@@ -66,7 +66,7 @@ export default function Home() {
             }}
           />
         </section>
-        <section className="grid grid-cols-2 justify-items-center gap-y-8 mt-10 w-[100%] m-auto">
+        <section className="grid grid-cols-2 justify-items-center gap-y-8 mt-10 w-[100%] m-auto relative right-3">
         <div className="flex flex-col justify-center items-center gap-y-5">
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-white">2m+</h1>

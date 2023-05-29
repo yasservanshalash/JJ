@@ -12,15 +12,14 @@ const NavBar = () => {
         <ul className="flex items-center gap-2">
           <li>
             <Link href={"/settings"}>
-            <SettingsIco />
-
+              <SettingsIco />
             </Link>
           </li>
           <li>
-          <Link href={"/settings"}>
-            <HamburgerIcon />
-
-            </Link>          </li>
+            <Link href={"/settings"}>
+              <HamburgerIcon />
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

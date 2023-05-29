@@ -2,7 +2,6 @@ import JobCard from "@/components/cards/JobCard";
 import JobtitleInputLanding from "@/components/inputs/landing/JobTitleInput";
 import LocationLandingInput from "@/components/inputs/landing/LocationInput";
 import SearchButton from "@/components/inputs/landing/SearchButton";
-import Image from "next/image";
 
 export default function Home() {
   return (

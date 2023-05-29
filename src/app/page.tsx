@@ -6,8 +6,8 @@ import SearchButton from "@/components/inputs/landing/SearchButton";
 export default function Home() {
   return (
     <main className="bg-white">
-      <header className="bg-[#212B36] h-[60vh]">
-        <h1 className="text-5xl text-white font-bold pt-8 px-5 text-center">
+      <header className="bg-[#212B36] h-[85vh]">
+        <h1 className="text-4xl text-white font-bold pt-8 px-5 text-center">
           Get The <span className="text-[#fa541c]">Career</span> You Deserve
         </h1>
         <p className="text-[#919eab] text-center p-5">

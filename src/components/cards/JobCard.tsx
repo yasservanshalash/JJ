@@ -16,7 +16,7 @@ const JobCard = () => {
         <section className='my-4'>
         <p className='font-semibold text-lg'>Corporate Data Officer</p>
         <p className='text-[#00b8d9] text-sm'>Altenwerth, Medhurst and Roberts</p>
-        <p className='text-gray-400 text-sm flex items-center'><LocationOnIcon sx={{fontSize: "100%"}}/>Sierra Leone</p>
+        <p className='text-gray-400 text-sm flex items-center'><LocationOnIcon sx={{fontSize: "100%", mr: "5px"}}/>Sierra Leone</p>
         </section>
         <p className='text-[#919eab] text-xs mb-5'>Posted day: 29 May 2023</p>
         <hr className='mb-5'/>

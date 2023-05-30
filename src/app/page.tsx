@@ -1,4 +1,5 @@
 import JobCard from "@/components/cards/JobCard";
+import CandidatesSection from "@/components/layout/landing/for_candidates/CandidatesSection";
 import LandingHeader from "@/components/layout/landing/landing_header/LandingHeader";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="bg-white">
       <LandingHeader />
       <hr />
+      <CandidatesSection />
       <section className="flex flex-col gap-5 mt-10">
         <JobCard />
         <JobCard />

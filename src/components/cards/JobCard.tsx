@@ -22,8 +22,8 @@ const JobCard = () => {
         <hr className='mb-5'/>
         <section className='grid grid-cols-2 gap-5'>
         <p className='text-gray-400 text-xs flex items-center gap-1'><SignalCellularAltIcon sx={{fontSize: "140%"}}/> 7 Year Exp</p>
-        <p className='text-gray-400 text-xs flex items-center gap-1'><LocalAtmIcon sx={{fontSize: "140%"}}/> Freelance</p>
-        <p className='text-gray-400 text-xs flex items-center gap-1'><AccessTimeIcon sx={{fontSize: "140%"}}/>Competitive</p>
+        <p className='text-gray-400 text-xs flex items-center gap-1'><AccessTimeIcon sx={{fontSize: "140%"}}/> Freelance</p>
+        <p className='text-gray-400 text-xs flex items-center gap-1'><LocalAtmIcon sx={{fontSize: "140%"}}/>Competitive</p>
         <p className='text-gray-400 text-xs flex items-center gap-1'><PersonOutlineIcon sx={{fontSize: "140%"}}/>Intern/Student</p>
 
         </section>

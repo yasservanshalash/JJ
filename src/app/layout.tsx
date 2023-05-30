@@ -1,8 +1,8 @@
 import NavBar from '@/components/layout/navbar/NavBar'
 import './globals.css'
-import { Public_Sans } from 'next/font/google'
+import { Barlow } from 'next/font/google'
 
-const inter = Public_Sans({ subsets: ['latin'] })
+const inter = Barlow({ weight: ["100", "200", "300", "400", "500", "600", "700", "800"], subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',

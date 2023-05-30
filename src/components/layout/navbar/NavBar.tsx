@@ -4,14 +4,15 @@ import Link from "next/link";
 import Logo1 from "../../../../public/logo1.png"
 import Logo2 from "../../../../public/logo2.png"
 import Image from "next/image";
+
 const NavBar = () => {
   return (
-    <nav className="flex justify-between items-center p-3 bg-white">
+    <nav className="flex justify-between items-center p-3 bg-white lg:w-[60%] lg:m-auto">
       <div className="flex items-center gap-1">
         <Image src={Logo1} width={32} height={32} alt="logo" />
         <h1 className="text-lg font-extrabold">JustJuniors</h1>
       </div>
-      <div>
+      <div className="lg:hidden">
         <ul className="flex items-center gap-2">
           <li>
             <Link href={"/settings"}>
@@ -21,6 +22,20 @@ const NavBar = () => {
           <li>
             <Link href={"/settings"}>
               <HamburgerIcon />
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="sm:hidden lg:block">
+        <ul className="flex items-center gap-3">
+          <li>
+            <Link href={"/settings"}>
+                <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="font-semibold hover:bg-[#a2a7ac44]">Log in</button>
+            </Link>
+          </li>
+          <li>
+            <Link href={"/settings"}>
+            <button style={{border: "1px solid gray", backgroundColor: "black", color: "white", padding: "5px 15px", borderRadius: "10px"}} className="font-semibold hover:bg-[#ffffff]">Sign up</button>
             </Link>
           </li>
         </ul>

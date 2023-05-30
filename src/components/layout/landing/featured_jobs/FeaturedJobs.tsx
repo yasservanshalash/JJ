@@ -12,12 +12,17 @@ const FeaturedJobs = () => {
           Jobs available apply to Editorial Specialist, Account Manager, Human Resources Specialist and more!
         </h1>
       </header>
-      <section className="flex flex-col items-center">
+      <section className="flex flex-wrap md:grid md:grid-cols-2 lg:w-[60%] lg:m-auto lg:grid lg:grid-cols-3 items-center">
       <JobCard />
       <JobCard />
       <JobCard />
-      <ViewAllJobsButton />
+      <JobCard />
       </section>
+      <section className="flex justify-center">
+      <ViewAllJobsButton />
+
+      </section>
+
     </section>
   );
 };

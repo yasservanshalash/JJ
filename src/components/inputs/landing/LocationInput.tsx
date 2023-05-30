@@ -11,7 +11,8 @@ export default function LocationLandingInput() {
   return (
     <Paper
       component="form"
-      sx={{ p: '10px 4px', display: 'flex', alignItems: 'center', width: '90%', margin: '0 auto', boxShadow: "0", borderRadius: "0px 0px 0px 0px" }}
+      className="py-[10px] px-[4px] flex items-center lg:justify-start w-[90%] lg:w-[30%] m-auto lg:m-0 shadow-none rounded-t-none rounded-b-none lg:rounded-l-none lg:rounded-r-none"
+
     >
       <IconButton aria-label="menu" disabled>
         <LocationOnIcon />

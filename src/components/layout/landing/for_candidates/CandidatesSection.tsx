@@ -5,7 +5,7 @@ import UploadCVButton from "@/components/inputs/landing/UploadCVButton"
 const CandidatesSection = () => {
   return (
     <section>
-        <header className="flex flex-col items-center w-[80%] m-auto text-center mt-16">
+        <header className="flex flex-col items-center w-[100%] m-auto text-center mt-16">
             <p className="text-[0.75rem] font-extrabold text-gray-400 mb-10">FOR CANDIDATES</p>
             <h1 className="text-[2rem] font-bold text-[#212b36] mb-6">Explore Thousands of Jobs</h1>
             <p className="text-[1rem] text-gray-500 font-semibold">Animi rerum nesciunt iusto praesentium, qui voluptatem sunt omnis aliquam, quo incidunt beatae? Obcaecati fugit illum asperiores.</p>

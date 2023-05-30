@@ -7,7 +7,7 @@ const SettingsIco = () => {
   return (
     <>
       <IconButton>
-        <SettingsIcon sx={{color: "black"}}/>
+        <SettingsIcon sx={{color: "#637381"}}/>
       </IconButton>
     </>
   );

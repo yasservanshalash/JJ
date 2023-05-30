@@ -13,10 +13,12 @@ import DividerVertical from "@/components/layout/divider/Divider";
 export default function Home() {
   return (
     <main className="bg-white">
-      <header className="bg-[#212B36] h-[120vh]">
-        <h1 className="text-5xl text-white font-bold pt-8 px-5 text-center">
+      <header className="bg-[#171728] h-[120vh]">
+        <div className="w-[85%] m-auto py-2">
+        <h1 className="text-[2.5rem] text-white font-bold pt-8 text-center">
           Get The <span className="text-[#fa541c]">Career</span> You Deserve
         </h1>
+        </div>
         <p className="text-[#919eab] text-center p-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque
           dolores repudiandae ullam magnam.
@@ -67,25 +69,25 @@ export default function Home() {
           />
         </section>
         <section className="grid grid-cols-2 justify-items-center gap-y-8 mt-10 w-[100%] m-auto relative right-3">
-        <div className="flex flex-col justify-center items-center gap-y-5">
+        <div className="flex flex-col justify-center items-center gap-y-16">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-white">2m+</h1>
-            <p className="text-gray-400">Jobs</p>
+            <h1 className="text-white font-bold text-xl">2m+</h1>
+            <p className="text-gray-400 text-sm font-semibold">Jobs</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-white">250k+</h1>
-            <p className="text-gray-400">Partners</p>
+            <h1 className="text-white font-bold text-xl">250k+</h1>
+            <p className="text-gray-400 text-sm font-semibold">Partners</p>
           </div>
           </div>
-          <div className="flex flex-col justify-center items-center gap-y-5">
+          <div className="flex flex-col justify-center items-center gap-y-16">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-white">500k+</h1>
-            <p className="text-gray-400">Successful Hiring</p>
+            <h1 className="text-white font-bold text-xl">500k+</h1>
+            <p className="text-gray-400 text-sm font-semibold">Successful Hiring</p>
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-white">156k+</h1>
-            <p className="text-gray-400">Employee</p>
+            <h1 className="text-white font-bold text-xl">156k+</h1>
+            <p className="text-gray-400 text-sm font-semibold">Employee</p>
           </div>
           </div>
         </section>

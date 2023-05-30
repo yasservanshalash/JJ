@@ -6,7 +6,7 @@ const HamburgerIcon = () => {
   return (
     <>
       <IconButton>
-        <MenuIcon sx={{color: "black"}}/>
+        <MenuIcon sx={{color: "#637381"}}/>
       </IconButton>
     </>
   );

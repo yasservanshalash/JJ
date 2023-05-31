@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import HamburgerIcon from "@/components/icons/HamburgerIcon";
 import SettingsIco from "@/components/icons/SettingsIcon";
 import Link from "next/link";
@@ -12,7 +14,7 @@ const NavBar = () => {
         <Image src={Logo1} width={32} height={32} alt="logo" />
         <h1 className="text-lg font-extrabold">JustJuniors</h1>
       </div>
-      <div className="lg:hidden">
+      <div className="sm:inline md:hidden">
         <ul className="flex items-center gap-2">
           <li>
             <Link href={"/settings"}>
@@ -26,7 +28,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="sm:hidden lg:block">
+      <div className="sm:hidden md:inline">
         <ul className="flex items-center gap-3">
           <li>
             <Link href={"/settings"}>
@@ -35,7 +37,7 @@ const NavBar = () => {
           </li>
           <li>
             <Link href={"/settings"}>
-            <button style={{border: "1px solid gray", backgroundColor: "black", color: "white", padding: "5px 15px", borderRadius: "10px"}} className="font-semibold hover:bg-[#ffffff]">Sign up</button>
+            <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="bg-black text-white font-semibold hover:bg-white hover:text-black hover:border-solid hover:border-black">Sign up</button>
             </Link>
           </li>
         </ul>

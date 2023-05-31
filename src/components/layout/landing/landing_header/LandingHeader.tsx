@@ -16,7 +16,7 @@ const LandingHeader = () => {
             Get The <span className="text-[#fa541c]">Career</span> You Deserve
           </h1>
         </div>
-        <p className="text-[#919eab] text-center lg:text-left p-5 lg:py-10 lg:px-0 lg:w-[40%] lg:font-semibold">
+        <p className="text-[#919eab] text-center lg:text-left p-5 lg:py-10 lg:px-0 lg:w-[50%] lg:font-semibold">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut atque
           dolores repudiandae ullam magnam.
         </p>

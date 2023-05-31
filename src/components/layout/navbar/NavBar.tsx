@@ -40,6 +40,11 @@ const NavBar = () => {
             <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="bg-black text-white font-semibold hover:bg-white hover:text-black hover:border-solid hover:border-black">Sign up</button>
             </Link>
           </li>
+          <li>
+            <Link href={"/settings"}>
+              <SettingsIco />
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

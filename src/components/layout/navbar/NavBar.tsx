@@ -14,7 +14,7 @@ const NavBar = () => {
         <Image src={Logo1} width={32} height={32} alt="logo" />
         <h1 className="text-lg font-extrabold">JustJuniors</h1>
       </div>
-      <div className="sm:inline md:hidden">
+      <div className="sm:inline lg:hidden">
         <ul className="flex items-center gap-2">
           <li>
             <Link href={"/settings"}>
@@ -28,7 +28,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="sm:hidden md:inline">
+      <div className="hidden md:hidden lg:inline ">
         <ul className="flex items-center gap-3">
           <li>
             <Link href={"/settings"}>

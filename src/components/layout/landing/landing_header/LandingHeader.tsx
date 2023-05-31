@@ -6,10 +6,11 @@ import airbnb from "../../../../../public/airbnb.svg";
 import dropbox from "../../../../../public/dropbox.svg";
 import facebook from "../../../../../public/facebook.svg";
 import google from "../../../../../public/google.svg";
+import styles from "./LandingHeader.module.css"
 
 const LandingHeader = () => {
   return (
-    <header className="bg-[#171728] h-[140vh] lg:h-[100vh]">
+    <header className={styles.header}>
       <section className="lg:w-[1200px] lg:m-auto lg:px-0 lg:py-20">
         <div className="w-[85%] lg:w-[50%] m-auto lg:m-0 py-2">
           <h1 className="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] text-white font-bold pt-8 text-center lg:text-left">
@@ -91,6 +92,26 @@ const LandingHeader = () => {
               <p className="text-gray-400 text-sm font-semibold">Employee</p>
             </div>
           </div>
+        </section>
+        <section className="sm:hidden md:hidden lg:flex lg:justify-start lg:items-center lg:gap-20">
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="text-white font-bold text-xl">2m+</h1>
+            <p className="text-gray-400 text-sm font-semibold">Jobs</p>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="text-white font-bold text-xl">500k+</h1>
+            <p className="text-gray-400 text-sm font-semibold">
+              Successful Hiring
+            </p>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="text-white font-bold text-xl">250k+</h1>
+            <p className="text-gray-400 text-sm font-semibold">Partners</p>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+              <h1 className="text-white font-bold text-xl">156k+</h1>
+              <p className="text-gray-400 text-sm font-semibold">Employee</p>
+            </div>
         </section>
       </section>
     </header>

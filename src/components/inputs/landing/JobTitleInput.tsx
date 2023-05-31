@@ -9,9 +9,8 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export default function JobtitleInputLanding() {
   return (
-    <Paper
-      component="form"
-      className="py-[10px] px-[4px] flex items-center w-[90%] lg:w-[30%] m-auto lg:m-0 shadow-none rounded-t-md rounded-b-none lg:rounded-l-md lg:rounded-r-none"
+    <form
+      className="bg-white py-[10px] px-[4px] flex items-center w-[90%] lg:w-[30%] m-auto lg:m-0 shadow-none rounded-t-md rounded-b-none lg:rounded-l-md lg:rounded-r-none"
     >
       <IconButton aria-label="menu" disabled>
         <SearchIcon />
@@ -24,6 +23,6 @@ export default function JobtitleInputLanding() {
       <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
         <KeyboardArrowDownIcon />
       </IconButton>
-    </Paper>
+    </form>
   );
 }

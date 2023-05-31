@@ -9,9 +9,8 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function LocationLandingInput() {
   return (
-    <Paper
-      component="form"
-      className="py-[10px] px-[4px] flex items-center lg:justify-start w-[90%] lg:w-[30%] m-auto lg:m-0 shadow-none rounded-t-none rounded-b-none lg:rounded-l-none lg:rounded-r-none"
+    <form
+      className="bg-white py-[10px] px-[4px] flex items-center lg:justify-start w-[90%] lg:w-[30%] m-auto lg:m-0 shadow-none rounded-t-none rounded-b-none lg:rounded-l-none lg:rounded-r-none"
 
     >
       <IconButton aria-label="menu" disabled>
@@ -25,6 +24,6 @@ export default function LocationLandingInput() {
       <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
         <KeyboardArrowDownIcon />
       </IconButton>
-    </Paper>
+    </form>
   );
 }

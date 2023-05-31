@@ -1,6 +1,5 @@
 'use client';
 import { IconButton, InputBase, Paper } from "@mui/material"
-import SearchIcon from "@mui/icons-material/Search";
 import CategoryIcon from '@mui/icons-material/Category';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 

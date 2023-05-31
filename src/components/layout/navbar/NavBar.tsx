@@ -10,10 +10,13 @@ import Image from "next/image";
 const NavBar = () => {
   return (
     <nav className="flex justify-between items-center p-3 bg-white lg:w-[1200px] lg:m-auto">
-      <div className="flex items-center gap-1">
+        <Link href="/">
+        <div className="flex items-center gap-1">
         <Image src={Logo1} width={32} height={32} alt="logo" />
         <h1 className="text-lg font-extrabold">JustJuniors</h1>
       </div>
+        </Link>
+
       <div className="sm:inline md:hidden">
         <ul className="flex items-center gap-2">
           <li>

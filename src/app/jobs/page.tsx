@@ -5,9 +5,11 @@ import LocationInput from "@/components/inputs/jobs/Location"
 const page = () => {
   return (
     <main className="w-[1200px] m-auto">
-        <KeywordInput />
+      <section className="flex">
+      <KeywordInput />
         <CategoryInput />
         <LocationInput />
+      </section>
     </main>
   )
 }

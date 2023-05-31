@@ -5,6 +5,7 @@ import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 
 export default function LocationInput() {
@@ -14,7 +15,7 @@ export default function LocationInput() {
 
     >
       <IconButton aria-label="menu" disabled>
-        <LocationInput />
+        <LocationOnIcon />
       </IconButton>
       <InputBase
         sx={{ ml: 1, flex: 1 }}

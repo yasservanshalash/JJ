@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-between items-center p-3 bg-white lg:w-[60%] lg:m-auto">
+    <nav className="flex justify-between items-center p-3 bg-white lg:w-[1200px] lg:m-auto">
       <div className="flex items-center gap-1">
         <Image src={Logo1} width={32} height={32} alt="logo" />
         <h1 className="text-lg font-extrabold">JustJuniors</h1>
@@ -37,7 +37,7 @@ const NavBar = () => {
           </li>
           <li>
             <Link href={"/settings"}>
-            <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="bg-black text-white font-semibold hover:bg-white hover:text-black hover:border-solid hover:border-black">Sign up</button>
+            <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="bg-black text-white font-semibold hover:bg-[#212b36] hover:text-white hover:border-solid hover:border-black">Sign up</button>
             </Link>
           </li>
           <li>

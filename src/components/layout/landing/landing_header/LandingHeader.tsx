@@ -10,7 +10,7 @@ import google from "../../../../../public/google.svg";
 const LandingHeader = () => {
   return (
     <header className="bg-[#171728] h-[140vh] lg:h-[100vh]">
-      <section className="lg:w-[60%] lg:m-auto lg:px-0 lg:py-20">
+      <section className="lg:w-[1200px] lg:m-auto lg:px-0 lg:py-20">
         <div className="w-[85%] lg:w-[50%] m-auto lg:m-0 py-2">
           <h1 className="text-[2.5rem] md:text-[3.25rem] lg:text-[4rem] text-white font-bold pt-8 text-center lg:text-left">
             Get The <span className="text-[#fa541c]">Career</span> You Deserve

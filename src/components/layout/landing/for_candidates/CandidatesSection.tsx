@@ -4,7 +4,7 @@ import JobSearch from "../../../../../public/jobsearch.svg";
 import UploadCVButton from "@/components/inputs/landing/UploadCVButton";
 const CandidatesSection = () => {
   return (
-    <section>
+    <section className="lg:w-[1200px] m-auto">
       <header className="flex flex-col items-center w-[100%] m-auto text-center mt-16">
         <p className="text-[0.75rem] font-extrabold text-gray-400 mb-10">
           FOR CANDIDATES
@@ -17,7 +17,7 @@ const CandidatesSection = () => {
           aliquam, quo incidunt beatae? Obcaecati fugit illum asperiores.
         </p>
       </header>
-      <section className="flex flex-col items-center text-center lg:grid lg:grid-cols-3 lg:w-[60%] lg:m-auto">
+      <section className="flex flex-col items-center text-center lg:grid lg:grid-cols-3 lg:w-[100%] lg:m-auto">
         <div className="flex flex-col items-center my-10">
           <Image
             src={JobApplication}

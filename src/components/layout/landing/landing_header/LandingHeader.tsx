@@ -93,7 +93,7 @@ const LandingHeader = () => {
             </div>
           </div>
         </section>
-        <section className="sm:hidden md:hidden lg:flex lg:justify-start lg:items-center lg:gap-20">
+        <section className="hidden lg:flex lg:justify-start lg:items-center lg:gap-20">
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-white font-bold text-xl">2m+</h1>
             <p className="text-gray-400 text-sm font-semibold">Jobs</p>

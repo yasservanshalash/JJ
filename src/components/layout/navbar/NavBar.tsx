@@ -33,6 +33,16 @@ const NavBar = () => {
       </div>
       <div className="hidden md:inline lg:inline ">
         <ul className="flex items-center gap-3">
+        <li>
+            <Link href={"/account"}>
+                <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="font-semibold hover:bg-[#a2a7ac44]">Account</button>
+            </Link>
+          </li>
+          <li>
+            <Link href={"/account"}>
+                <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="font-semibold hover:bg-[#a2a7ac44]">Jobs</button>
+            </Link>
+          </li>
           <li>
             <Link href={"/settings"}>
                 <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="font-semibold hover:bg-[#a2a7ac44]">Log in</button>

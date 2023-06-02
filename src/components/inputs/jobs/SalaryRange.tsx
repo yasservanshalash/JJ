@@ -54,7 +54,7 @@ const marks = [
     },
     {
       value: 100,
-      label: '€4000',
+      label: '€400',
     },
   ];
 
@@ -100,13 +100,8 @@ export default function SalaryRange() {
         marks={marks}
         sx={{width: "60%", position: "relative", top: "10px", left: "90px"}}
         className='text-orange-400'
-        // onChange={(e) => {
-        //     if(e.target) {
-        //         console.log(e.target?.value * 40);
-        //     }
-        // }}
-          onChange={(event: Event, newValue: number | number[]) => {
-            console.log(newValue as number);
+        onChange={(event: Event, newValue: number | number[]) => {
+            console.log(newValue as number * 40);
           }}
       />
         </Select>

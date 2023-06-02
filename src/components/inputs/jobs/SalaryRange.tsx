@@ -98,7 +98,18 @@ export default function SalaryRange() {
         getAriaValueText={valuetext}
         defaultValue={30}
         marks={marks}
-        sx={{width: "60%", position: "relative", top: "10px", left: "90px"}}
+        sx={{width: "60%", position: "relative", top: "10px", left: "90px",    '& .MuiSlider-thumb': {
+            color: "rgb(251, 146, 60)"
+        },
+        '& .MuiSlider-track': {
+            color: "rgb(251, 146, 60)"
+        },
+        '& .MuiSlider-rail': {
+            color: "#acc4e4"
+        },
+        '& .MuiSlider-active': {
+            color: "rgb(251, 146, 60)"
+        }}}
         className='text-orange-400'
         onChange={(event: Event, newValue: number | number[]) => {
             console.log(newValue as number * 40);

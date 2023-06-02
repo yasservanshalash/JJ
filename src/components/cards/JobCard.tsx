@@ -10,10 +10,12 @@ import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 
 import styles from "./JobCard.module.css"
+import Link from 'next/link';
 const JobCard = () => {
   return (
-    <Paper className='w-[90%] m-auto p-5 my-5' sx={{boxShadow: "0 0 2px 0 rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12)", transition: "box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",'&:hover': {boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}}}>
-        <Image src={CardImage} width={48} height={48} alt=''  className='rounded-md'/>
+        <Paper className='w-[90%] m-auto p-5 my-5' sx={{boxShadow: "0 0 2px 0 rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12)", transition: "box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",'&:hover': {boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"}}}>
+          <Link href="/jobs/2">
+          <Image src={CardImage} width={48} height={48} alt=''  className='rounded-md'/>
         <section className='my-4'>
         <p className='font-semibold text-lg'>Corporate Data Officer</p>
         <p className='text-[#00b8d9] text-sm font-semibold'>Altenwerth, Medhurst and Roberts</p>
@@ -28,6 +30,7 @@ const JobCard = () => {
         <p className='text-gray-400 text-xs flex items-center gap-1 font-[500]'><PersonOutlineIcon sx={{fontSize: "140%"}}/>Intern/Student</p>
 
         </section>
+          </Link>
     </Paper>
   )
 }

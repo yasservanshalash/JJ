@@ -100,7 +100,14 @@ export default function SalaryRange() {
         marks={marks}
         sx={{width: "60%", position: "relative", top: "10px", left: "90px"}}
         className='text-orange-400'
-        onChange={e => console.log(e.target.value * 40)}
+        // onChange={(e) => {
+        //     if(e.target) {
+        //         console.log(e.target?.value * 40);
+        //     }
+        // }}
+          onChange={(event: Event, newValue: number | number[]) => {
+            console.log(newValue as number);
+          }}
       />
         </Select>
       </FormControl>

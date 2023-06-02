@@ -7,9 +7,9 @@ import Link from 'next/link';
 
 const JobHeader = () => {
   return (
-    <main  className={styles.header}>
+    <main  className={styles.header} style={{height: "85vh"}}>
 
-    <section className="w-[1200px] h-[55vh] m-auto  ml-3">
+    <section className="h-[55vh] lg:w-[1200px] m-auto  ml-3">
     <div className="flex items-center gap-x-3 py-10 ml-4">
         <Link href="/">
         <p className="text-white">Home</p>

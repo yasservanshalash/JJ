@@ -4,7 +4,7 @@ import { CircularProgress } from '@mui/material';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from "@/public/logo1.png";
+import Logo from "../../../public/logo1.png";
 export function SignInButton() {
   const { data: session, status } = useSession();
   console.log(session, status);

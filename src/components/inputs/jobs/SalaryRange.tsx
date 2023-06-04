@@ -54,7 +54,7 @@ const marks = [
     },
     {
       value: 100,
-      label: '€400',
+      label: '€4000',
     },
   ];
 

@@ -21,7 +21,7 @@ const JobInfoCard = () => {
             <div className="flex items-start gap-x-4">
                 <HourglassBottomIcon />
                 <div className="flex flex-col">
-                    <p className="font-semibold">Date Posted</p>
+                    <p className="font-semibold">Expiration Date</p>
                     <p className="text-sm font-semibold text-orange-500">02 Jun 2023</p>
                 </div>
             </div>

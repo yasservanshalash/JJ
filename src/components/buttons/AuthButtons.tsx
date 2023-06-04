@@ -4,7 +4,7 @@ import { CircularProgress } from '@mui/material';
 import { useSession, signIn, signOut } from 'next-auth/react';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import Logo from "@/public/logo1.png";
 export function SignInButton() {
   const { data: session, status } = useSession();
   console.log(session, status);
@@ -20,7 +20,7 @@ export function SignInButton() {
         <>
               <Link href={`/dashboard`}>
         <Image
-          src={session.user?.image ?? '/mememan.webp'}
+          src={session.user?.image ?? Logo}
           width={32}
           height={32}
           alt="Your Name"

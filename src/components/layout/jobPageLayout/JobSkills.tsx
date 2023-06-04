@@ -1,4 +1,5 @@
 const JobSkills = () => {
+
   return (
     <main className="m-auto p-5">
         <h1 className="text-xl font-semibold mb-5">Job Skills</h1>

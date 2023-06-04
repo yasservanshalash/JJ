@@ -1,6 +1,7 @@
 import NavBar from '@/components/layout/navbar/NavBar'
 import './globals.css'
 import { Barlow } from 'next/font/google'
+import AuthProvider from './AuthProvider'
 
 const inter = Barlow({ weight: ["100", "200", "300", "400", "500", "600", "700", "800"], subsets: ['latin'] })
 
@@ -16,8 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <AuthProvider>
     <html lang="en">
       <body className={inter.className}><NavBar/>{children}</body>
     </html>
+    </AuthProvider>
   )
 }

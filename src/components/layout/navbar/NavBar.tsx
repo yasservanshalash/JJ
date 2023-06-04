@@ -6,6 +6,7 @@ import Link from "next/link";
 import Logo1 from "../../../../public/logo1.png"
 import Logo2 from "../../../../public/logo2.png"
 import Image from "next/image";
+import { SignInButton } from "@/components/buttons/AuthButtons";
 
 const NavBar = () => {
   return (
@@ -33,26 +34,14 @@ const NavBar = () => {
       </div>
       <div className="hidden md:inline lg:inline ">
         <ul className="flex items-center gap-3">
-        <li>
-            <Link href={"/account"}>
-                <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="text-black font-semibold hover:bg-[#a2a7ac44]">Account</button>
-            </Link>
+          <li className="flex items-center gap-3">
+            <SignInButton />
           </li>
-          <li>
-            <Link href={"/jobs"}>
-                <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="text-black font-semibold hover:bg-[#a2a7ac44]">Jobs</button>
-            </Link>
-          </li>
-          <li>
-            <Link href={"/settings"}>
-                <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="text-black font-semibold hover:bg-[#a2a7ac44]">Log in</button>
-            </Link>
-          </li>
-          <li>
+          {/* <li>
             <Link href={"/settings"}>
             <button style={{border: "1px solid gray", padding: "5px 15px", borderRadius: "10px"}} className="bg-black text-white font-semibold hover:bg-[#212b36] hover:text-white hover:border-solid hover:border-black">Sign up</button>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"/settings"}>
               <SettingsIco />
